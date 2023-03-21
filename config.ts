@@ -126,7 +126,7 @@ export default defineUserConfig({
                 {
                   text: '本地游戏问题诊断',
                   link: '/',
-                  children: ['/zh/page_errors/error_loacl.md'],
+                  children: ['/zh/page_errors/error_loacl.md', '/zh/page_onlineGame/error.md'],
                 },
                 {
                   text: '线上游戏错误',
@@ -162,7 +162,7 @@ export default defineUserConfig({
                   text: '游玩服务器教程',
                   link: '/',
                   activeMatch: '/',
-                  children: ['/zh/page_shmc/indexes/#如何游玩'],
+                  children: ['/zh/page_shmc/indexes.md'],
                 },
                 {
                   text: '错误诊断',
@@ -182,19 +182,19 @@ export default defineUserConfig({
                   activeMatch: '/',
                   children: [],
                 },
-                {
+                /*{
                   text: '必须和推荐资源',
                   link: '/',
 
                   activeMatch: '/',
                   children: ['/zh/page_download/ConsolidationPack'],
 
-                },
+                },*/
                 {
                   text: '画质补丁',
                   link: '/',
                   activeMatch: '/',
-                  children: ['/zh/Page_mod/gui'],
+                  children: ['/zh/page_mod/gui.md'],
                 },
               ],
             },
@@ -260,19 +260,19 @@ export default defineUserConfig({
             children: [
               {
                 text: 'CM启动器',
-                children: ['/zh/page_CM/install', '/zh/page_errors/error_cm'],
+                children: ['/zh/page_CM/install.md','/zh/page_CM/use.md', '/zh/page_errors/error_cm.md'],
               },
-              {
+              /*{
                 text: '数显',
                 children: [],
-              },
+              },*/
               {
                 text: '数据修改器',
-                children: ['/zh/page_Modifier/install'],
+                children: ['/zh/page_Modifier/install.md','/zh/page_Modifier/use.md'],
               },
               {
                 text: 'vjoy',
-                children: ['/zh/page_vjoy/install', '/zh/page_vjoy/use'],
+                children: ['/zh/page_vjoy/install.md', '/zh/page_vjoy/use.md'],
               },
 
             ],
@@ -296,7 +296,7 @@ export default defineUserConfig({
               },
               {
                 text: '游玩线上服务器教程',
-                link: '/',
+                link: '/zh/Page_shmc/indexes.md',
                 children: [],
               },
               {
@@ -311,31 +311,31 @@ export default defineUserConfig({
             children: [
               {
                 text: '车辆资源',
-                link: '/zh/Page_mod/car',
+                link: '/zh/page_mod/cars.md',
                 activeMatch: '/',
                 children: [],
               },
               {
                 text: '地图资源',
-                link: '/zh/page_download/map',
+                link: '/zh/page_download/map.md',
                 activeMatch: '/',
                 children: [],
               },
               {
                 text: '整合包资源',
-                link: '/zh/page_download/ConsolidationPack',
+                link: '/zh/page_mod/ConsolidationPack.md',
                 activeMatch: '/',
                 children: [],
               },
               {
                 text: '画质补丁',
-                link: '/zh/Page_mod/gui',
+                link: '/zh/page_mod/gui.md',
                 activeMatch: '/',
                 children: [],
               },
               {
                 text: '音效补丁',
-                link: '/zh/Page_mod/sound',
+                link: '/zh/Page_mod/sound.md',
                 activeMatch: '/',
                 children: [],
               },
